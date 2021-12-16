@@ -12,6 +12,7 @@
     "lint": "NODE_ENV=test eslint src/ test/",
     "build": "rimraf lib/*; NODE_ENV=production babel src/ -d lib/ -s",
     "build:watch": "yarn build -- -w",
+    "prepare": "yarn build",
     "prepublish": "yarn build"
   },
   "repository": "github:mgcrea/node-xlsx",
