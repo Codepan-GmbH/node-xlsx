@@ -4,11 +4,10 @@ module.exports = {
       '@babel/preset-env',
       {
         targets: {
-          node: '4'
+          node: '4',
         },
-        loose: true
-      }
-    ]
+      },
+    ],
   ],
-  plugins: ['@babel/plugin-proposal-class-properties', '@babel/plugin-transform-runtime']
+  plugins: ['@babel/plugin-proposal-class-properties', '@babel/plugin-transform-runtime'],
 };
